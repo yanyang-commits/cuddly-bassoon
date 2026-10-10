@@ -1,13 +1,14 @@
 # ONESTEL · 科技实践笔记
 
-**把新工具变成真实作品。** 一个面向个人创作者的科技独立站，记录 AI、数字工具与独立站建设的方法，帮助读者从了解工具走向完成具体任务。
+**把模糊想法变成可执行任务。** ONESTEL 以高质量提问为主要功能，帮助用户生成可交给 AI 的任务指令，再通过工具导航与实践笔记推进项目。
 
-[访问网站](https://yanyang-commits.github.io/cuddly-bassoon/) · [AI 工具导航](https://yanyang-commits.github.io/cuddly-bassoon/tools/) · [阅读文章](https://yanyang-commits.github.io/cuddly-bassoon/articles/) · [构建与部署记录](https://github.com/yanyang-commits/cuddly-bassoon/actions)
+[高质量提问](https://yanyang-commits.github.io/cuddly-bassoon/prompt/) · [访问网站](https://yanyang-commits.github.io/cuddly-bassoon/) · [AI 工具导航](https://yanyang-commits.github.io/cuddly-bassoon/tools/) · [阅读文章](https://yanyang-commits.github.io/cuddly-bassoon/articles/) · [构建与部署记录](https://github.com/yanyang-commits/cuddly-bassoon/actions)
 
 ## 项目概览
 
 ONESTEL 从一个可持续维护的小型网站开始：用原创文章积累方法，用工具导航提供行动入口，后续根据真实需求加入 AI 小工具。当前已部署到 GitHub Pages；ONESTEL 为项目品牌，尚未确认 `onestel.com` 的归属或配置。
 
+- **高质量提问工作台**：6 类任务方向，目标、背景与约束补充，缺口提示，可编辑指令、复制、TXT 下载及示例。
 - **内容站**：首页、文章列表、3 篇原创方法文章、关于页及 404 页面。
 - **AI 工具导航**：73 个工具与平台、10 个分类，涵盖国内外常见创作与工作场景。
 - **组合筛选**：关键词、用途分类、使用方式与“入门优先”可同时使用，支持无结果提示及重置。
@@ -49,11 +50,12 @@ npm run dev
 
 ## 页面与信息架构
 
-首页依次展示品牌导航、网站定位、内容方向、最新文章、工具导航入口和页脚。主要路径如下；在线地址统一前置 `/cuddly-bassoon`。
+首页优先展示高质量提问入口、任务推进流程、实践笔记与工具导航。主要路径如下；在线地址统一前置 `/cuddly-bassoon`。
 
 | 路径 | 页面内容 |
 | --- | --- |
-| `/` | 网站定位、内容方向与最新文章 |
+| `/` | 高质量提问主入口与任务推进路径 |
+| `/prompt/` | 模糊想法 → 可复制 AI 任务指令 |
 | `/articles/` | 按标题、分类和摘要搜索文章 |
 | `/articles/start-small/` | 独立站第一版：先给读者一条清楚的阅读路径 |
 | `/articles/ai-workflow/` | 用 AI 整理笔记：从零散材料到可核验的文章提纲 |
@@ -225,3 +227,11 @@ GitHub Pages 只托管静态文件，模型调用需要独立服务端。未来�
 - [工具官方来源清单](docs/TOOL_SOURCES.md)
 - [AI 接入方案](docs/AI_INTEGRATION.md)
 - [初始 MVP 规划](docs/PROJECT_PLAN.md)
+
+## 高质量提问工作台
+
+在 `/prompt/` 输入模糊想法，选择项目探索、学习新知识、职业判断、创作与写作、方案比较或执行与复盘。可选填写目标、背景、约束与输出形式，点击生成后编辑、复制或下载指令。未填写的信息会标为待确认，不代替用户编造条件。
+
+当前采用浏览器内的提问框架组合，不调用 AI 模型，不上传或持久化输入；指令要求 AI 区分证据与推断、集中提出最多三个关键问题、挑战假设，并给出验收标准及最小下一步。模型回答仍由用户核验。
+
+`public/assets/prompt-core.js` 维护生成逻辑，`prompt.js` 负责表单与导出，`scripts/render-prompt.mjs` 维护页面。复制失败时会选中结果并提示手动复制。后续可按实际使用反馈接入服务端自适应追问，当前未实现。
