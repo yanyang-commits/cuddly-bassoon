@@ -1,0 +1,2 @@
+const input=document.querySelector('#search');
+if(input){const cards=[...document.querySelectorAll('[data-search]')];const status=document.querySelector('#search-status');input.addEventListener('input',()=>{const q=input.value.trim().toLocaleLowerCase();let count=0;for(const card of cards){card.hidden=!card.dataset.search.toLocaleLowerCase().includes(q);if(!card.hidden)count++;}status.textContent=count?`找到 ${count} 篇文章`:'没有匹配的文章，请换一个关键词。';});}
