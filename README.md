@@ -61,3 +61,6 @@ git push -u origin main
 - https://platform.openai.com/docs
 
 暂不附开源许可证；公开仓库不自动赋予他人任意复用许可。决定开源时再选择许可证。
+
+## AI 工具导航
+当前收录 73 个工具与平台、10 个使用方向。支持关键词、分类、使用方式、入门优先联合筛选与重置；关闭 JavaScript 仍可浏览全部工具。每条含名称、官方入口、用途、任务、标签与核对日期。`scripts/render-tools.mjs` 渲染导航，`public/assets/tools.js` 负责筛选。内容维护时核对官网并更新 verifiedAt。页面不保存用户搜索，不依赖外部字体、图片或第三方前端脚本。资源带内容指纹参数，以便更新后加载新样式。

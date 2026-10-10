@@ -1,20 +1,1170 @@
 [
   {
-    "name": "GitHub",
-    "url": "https://github.com",
-    "category": "开发",
-    "description": "管理项目源码与版本历史。"
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com/",
+    "category": "通用助手",
+    "description": "对话式助手，支持写作、文件处理、创意与编程任务。",
+    "task": "整理材料、起草文章、解释概念",
+    "mode": "网页 / App",
+    "tags": [
+      "写作",
+      "文件",
+      "编程"
+    ],
+    "featured": true,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://chatgpt.com/"
   },
   {
-    "name": "MDN Web Docs",
-    "url": "https://developer.mozilla.org/zh-CN/",
-    "category": "学习",
-    "description": "查阅 HTML、CSS 与 JavaScript 文档。"
+    "name": "Claude",
+    "url": "https://claude.ai/",
+    "category": "通用助手",
+    "description": "Anthropic 的对话助手，可围绕文本与材料协作。",
+    "task": "梳理长文、改写表达、分析材料",
+    "mode": "网页 / App",
+    "tags": [
+      "写作",
+      "文档",
+      "推理"
+    ],
+    "featured": true,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://claude.ai/"
   },
   {
-    "name": "OpenAI 开发文档",
-    "url": "https://platform.openai.com/docs",
-    "category": "AI",
-    "description": "后续开发 AI 接口时的官方参考。"
+    "name": "Gemini",
+    "url": "https://gemini.google/about/",
+    "category": "通用助手",
+    "description": "Google 的多模态 AI 助手，提供对话与创作入口。",
+    "task": "理解图片、研究主题、整理思路",
+    "mode": "网页 / App",
+    "tags": [
+      "多模态",
+      "研究",
+      "Google"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://gemini.google/about/"
+  },
+  {
+    "name": "DeepSeek",
+    "url": "https://www.deepseek.com/",
+    "category": "通用助手",
+    "description": "深度求索提供的 AI 对话与开发者服务。",
+    "task": "中文问答、推理、代码辅助",
+    "mode": "网页 / App / API",
+    "tags": [
+      "中文",
+      "推理",
+      "编程"
+    ],
+    "featured": true,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.deepseek.com/"
+  },
+  {
+    "name": "Qwen",
+    "url": "https://qwen.ai/",
+    "category": "通用助手",
+    "description": "阿里巴巴 Qwen 的 AI 对话入口。",
+    "task": "学习问答、内容构思、多模态任务",
+    "mode": "网页 / App",
+    "tags": [
+      "中文",
+      "多模态",
+      "阿里"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://qwen.ai/"
+  },
+  {
+    "name": "千问",
+    "url": "https://www.qianwen.com/",
+    "category": "通用助手",
+    "description": "阿里旗下的全能 AI 助手，面向中文日常任务。",
+    "task": "中文内容整理、学习与日常问答",
+    "mode": "网页 / App",
+    "tags": [
+      "中文",
+      "问答",
+      "阿里"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.qianwen.com/"
+  },
+  {
+    "name": "Kimi",
+    "url": "https://www.kimi.com/",
+    "category": "通用助手",
+    "description": "Moonshot AI 的助手，面向知识工作与编程任务。",
+    "task": "阅读材料、研究问题、整理方案",
+    "mode": "网页 / App",
+    "tags": [
+      "中文",
+      "文档",
+      "研究"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.kimi.com/"
+  },
+  {
+    "name": "豆包",
+    "url": "https://www.doubao.com/chat/",
+    "category": "通用助手",
+    "description": "字节跳动提供的 AI 对话助手。",
+    "task": "中文问答、构思、日常内容协作",
+    "mode": "网页 / App",
+    "tags": [
+      "中文",
+      "写作",
+      "问答"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.doubao.com/chat/"
+  },
+  {
+    "name": "腾讯元宝",
+    "url": "https://yuanbao.tencent.com/",
+    "category": "通用助手",
+    "description": "腾讯的 AI 助手，提供对话与材料处理入口。",
+    "task": "中文材料问答、信息梳理",
+    "mode": "网页 / App",
+    "tags": [
+      "中文",
+      "文件",
+      "腾讯"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://yuanbao.tencent.com/"
+  },
+  {
+    "name": "智谱清言",
+    "url": "https://chatglm.cn/",
+    "category": "通用助手",
+    "description": "智谱的 AI 助手，提供研究报告、PPT 与数据任务入口。",
+    "task": "整理报告、研究主题、办公问答",
+    "mode": "网页 / App",
+    "tags": [
+      "中文",
+      "研究",
+      "办公"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://chatglm.cn/"
+  },
+  {
+    "name": "文心助手",
+    "url": "https://yiyan.baidu.com/",
+    "category": "通用助手",
+    "description": "百度提供的办公学习 AI 助手。",
+    "task": "中文问答、写作、学习辅助",
+    "mode": "网页 / App",
+    "tags": [
+      "中文",
+      "办公",
+      "百度"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://yiyan.baidu.com/"
+  },
+  {
+    "name": "讯飞星火",
+    "url": "https://xinghuo.xfyun.cn/",
+    "category": "通用助手",
+    "description": "科大讯飞的 AI 助手入口。",
+    "task": "中文内容构思、学习与工作问答",
+    "mode": "网页 / App",
+    "tags": [
+      "中文",
+      "写作",
+      "讯飞"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://xinghuo.xfyun.cn/"
+  },
+  {
+    "name": "Grok",
+    "url": "https://grok.com/",
+    "category": "通用助手",
+    "description": "提供 AI 对话与创作的助手入口。",
+    "task": "围绕问题探索、讨论与创作",
+    "mode": "网页 / App",
+    "tags": [
+      "问答",
+      "研究",
+      "创作"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://grok.com/"
+  },
+  {
+    "name": "Microsoft Copilot",
+    "url": "https://copilot.microsoft.com/",
+    "category": "通用助手",
+    "description": "微软的个人 AI 助手，与企业办公版分开列出。",
+    "task": "日常问答、构思和内容辅助",
+    "mode": "网页 / App",
+    "tags": [
+      "问答",
+      "微软",
+      "个人助手"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://copilot.microsoft.com/"
+  },
+  {
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai/",
+    "category": "搜索与研究",
+    "description": "以搜索和来源链接为核心的 AI 信息探索工具。",
+    "task": "寻找资料入口并核对原始来源",
+    "mode": "网页 / App",
+    "tags": [
+      "搜索",
+      "引用",
+      "研究"
+    ],
+    "featured": true,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.perplexity.ai/"
+  },
+  {
+    "name": "NotebookLM",
+    "url": "https://notebooklm.google/",
+    "category": "搜索与研究",
+    "description": "Google 的资料研究工具，围绕用户提供的来源工作。",
+    "task": "阅读资料、汇总笔记、提出材料问题",
+    "mode": "网页 / App",
+    "tags": [
+      "知识库",
+      "文档",
+      "学习"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://notebooklm.google/"
+  },
+  {
+    "name": "Elicit",
+    "url": "https://elicit.com/",
+    "category": "搜索与研究",
+    "description": "面向科研资料搜索、提取与综述的 AI 工具。",
+    "task": "发现相关论文、整理研究材料",
+    "mode": "网页",
+    "tags": [
+      "论文",
+      "文献",
+      "综述"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://elicit.com/"
+  },
+  {
+    "name": "Consensus",
+    "url": "https://consensus.app/",
+    "category": "搜索与研究",
+    "description": "面向科学文献的 AI 搜索与分析工具。",
+    "task": "查找研究证据、了解科学问题",
+    "mode": "网页",
+    "tags": [
+      "论文",
+      "证据",
+      "搜索"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://consensus.app/"
+  },
+  {
+    "name": "Scite",
+    "url": "https://scite.ai/",
+    "category": "搜索与研究",
+    "description": "结合科学文献搜索与引用上下文的研究工具。",
+    "task": "检查论文引用背景、比较研究证据",
+    "mode": "网页",
+    "tags": [
+      "论文",
+      "引用",
+      "证据"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://scite.ai/"
+  },
+  {
+    "name": "Cursor",
+    "url": "https://cursor.com/",
+    "category": "编程与建站",
+    "description": "围绕代码库工作的 AI 编程工具与智能体。",
+    "task": "读代码、修改功能、排查问题",
+    "mode": "桌面 / CLI",
+    "tags": [
+      "IDE",
+      "代码库",
+      "编程"
+    ],
+    "featured": true,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://cursor.com/"
+  },
+  {
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "category": "编程与建站",
+    "description": "融入 GitHub、编辑器及开发流程的编程助手。",
+    "task": "代码补全、解释与开发任务协作",
+    "mode": "IDE / 网页 / CLI",
+    "tags": [
+      "GitHub",
+      "编程",
+      "IDE"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://github.com/features/copilot"
+  },
+  {
+    "name": "Devin Desktop（原 Windsurf 入口）",
+    "url": "https://windsurf.com/",
+    "category": "编程与建站",
+    "description": "当前 Windsurf 官网显示的编程智能体工作台。",
+    "task": "管理编程任务、检查代码变更",
+    "mode": "桌面",
+    "tags": [
+      "编程",
+      "智能体",
+      "Windsurf"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://windsurf.com/"
+  },
+  {
+    "name": "Claude Code",
+    "url": "https://www.anthropic.com/claude-code",
+    "category": "编程与建站",
+    "description": "在代码库、终端和 IDE 中协作的编程智能体。",
+    "task": "开发功能、调试、重构代码",
+    "mode": "CLI / IDE / 网页",
+    "tags": [
+      "编程",
+      "终端",
+      "智能体"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.anthropic.com/claude-code"
+  },
+  {
+    "name": "OpenAI Codex",
+    "url": "https://openai.com/codex/",
+    "category": "编程与建站",
+    "description": "OpenAI 的 AI 编程伙伴，支持代码任务协作。",
+    "task": "修改项目、调试、验证实现",
+    "mode": "App / CLI / 网页",
+    "tags": [
+      "编程",
+      "代码库",
+      "智能体"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://openai.com/codex/"
+  },
+  {
+    "name": "TRAE",
+    "url": "https://www.trae.ai/",
+    "category": "编程与建站",
+    "description": "面向软件开发的 AI 协作工具。",
+    "task": "代码任务协作与项目开发",
+    "mode": "桌面",
+    "tags": [
+      "IDE",
+      "编程",
+      "智能体"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.trae.ai/"
+  },
+  {
+    "name": "Replit",
+    "url": "https://replit.com/",
+    "category": "编程与建站",
+    "description": "结合 AI 生成、编辑与发布的应用开发平台。",
+    "task": "验证应用想法、制作可运行原型",
+    "mode": "网页",
+    "tags": [
+      "应用",
+      "原型",
+      "部署"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://replit.com/"
+  },
+  {
+    "name": "v0",
+    "url": "https://v0.app/",
+    "category": "编程与建站",
+    "description": "Vercel 的 AI 应用构建工具，可连接代码仓库。",
+    "task": "生成界面、搭建 Web 应用",
+    "mode": "网页",
+    "tags": [
+      "界面",
+      "建站",
+      "Vercel"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://v0.app/"
+  },
+  {
+    "name": "Bolt",
+    "url": "https://bolt.new/",
+    "category": "编程与建站",
+    "description": "通过 AI 对话构建网站、应用和原型。",
+    "task": "制作 MVP、演示产品流程",
+    "mode": "网页",
+    "tags": [
+      "建站",
+      "原型",
+      "应用"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://bolt.new/"
+  },
+  {
+    "name": "Lovable",
+    "url": "https://lovable.dev/",
+    "category": "编程与建站",
+    "description": "通过描述需求构建应用与网站的平台。",
+    "task": "搭建业务原型、验证产品想法",
+    "mode": "网页",
+    "tags": [
+      "建站",
+      "应用",
+      "原型"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://lovable.dev/"
+  },
+  {
+    "name": "Midjourney",
+    "url": "https://www.midjourney.com/",
+    "category": "图像与设计",
+    "description": "以视觉探索与图像创作为核心的 AI 平台。",
+    "task": "探索画面风格、概念视觉与插图",
+    "mode": "网页",
+    "tags": [
+      "图像",
+      "插图",
+      "概念设计"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.midjourney.com/"
+  },
+  {
+    "name": "Adobe Firefly",
+    "url": "https://www.adobe.com/products/firefly.html",
+    "category": "图像与设计",
+    "description": "Adobe 的生成式创作平台，提供图像与视频等创作入口。",
+    "task": "生成和编辑素材、探索视觉方向",
+    "mode": "网页 / 创作软件",
+    "tags": [
+      "图像",
+      "视频",
+      "Adobe"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.adobe.com/products/firefly.html"
+  },
+  {
+    "name": "Ideogram",
+    "url": "https://ideogram.ai/",
+    "category": "图像与设计",
+    "description": "图像生成与编辑平台，关注提示理解及画面中的文字。",
+    "task": "海报、标题视觉、含文字的图像",
+    "mode": "网页 / API",
+    "tags": [
+      "图像",
+      "文字排版",
+      "海报"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://ideogram.ai/"
+  },
+  {
+    "name": "Leonardo.Ai",
+    "url": "https://leonardo.ai/",
+    "category": "图像与设计",
+    "description": "提供图像生成、编辑、视频与清晰度提升的创作平台。",
+    "task": "视觉素材、角色与风格探索",
+    "mode": "网页 / API",
+    "tags": [
+      "图像",
+      "角色",
+      "编辑"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://leonardo.ai/"
+  },
+  {
+    "name": "Recraft",
+    "url": "https://www.recraft.ai/",
+    "category": "图像与设计",
+    "description": "面向设计素材的生成工具，提供图像与可编辑矢量入口。",
+    "task": "矢量图、品牌视觉与设计资产",
+    "mode": "网页 / API",
+    "tags": [
+      "矢量",
+      "图像",
+      "品牌"
+    ],
+    "featured": true,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.recraft.ai/"
+  },
+  {
+    "name": "Canva AI",
+    "url": "https://www.canva.com/ai/",
+    "category": "图像与设计",
+    "description": "Canva 内的 AI 创作入口，可结合设计编辑流程。",
+    "task": "社交图、演示视觉、设计草稿",
+    "mode": "网页 / App",
+    "tags": [
+      "设计",
+      "海报",
+      "演示"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.canva.com/ai/"
+  },
+  {
+    "name": "Figma AI",
+    "url": "https://www.figma.com/ai/",
+    "category": "图像与设计",
+    "description": "Figma 中用于设计探索、编辑和原型协作的 AI 功能。",
+    "task": "界面设计、视觉探索与原型",
+    "mode": "网页 / 桌面",
+    "tags": [
+      "UI",
+      "原型",
+      "设计"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.figma.com/ai/"
+  },
+  {
+    "name": "Runway",
+    "url": "https://runwayml.com/",
+    "category": "视频与数字人",
+    "description": "提供生成式视频与视觉创作的 AI 平台。",
+    "task": "生成镜头、探索短片视觉",
+    "mode": "网页",
+    "tags": [
+      "视频",
+      "镜头",
+      "创作"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://runwayml.com/"
+  },
+  {
+    "name": "Pika",
+    "url": "https://pika.art/",
+    "category": "视频与数字人",
+    "description": "面向视频和视觉内容的 AI 创作平台。",
+    "task": "制作短片、扩展素材、视觉实验",
+    "mode": "网页",
+    "tags": [
+      "视频",
+      "编辑",
+      "短片"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://pika.art/"
+  },
+  {
+    "name": "Luma",
+    "url": "https://lumalabs.ai/",
+    "category": "视频与数字人",
+    "description": "面向创作者的生成式视觉与视频工具。",
+    "task": "制作视觉素材、探索视频方向",
+    "mode": "网页",
+    "tags": [
+      "视频",
+      "视觉",
+      "创作"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://lumalabs.ai/"
+  },
+  {
+    "name": "可灵 Kling AI",
+    "url": "https://klingai.com/",
+    "category": "视频与数字人",
+    "description": "快手的 AI 视频与图像创作平台。",
+    "task": "文字或图片转视频、镜头探索",
+    "mode": "网页 / App",
+    "tags": [
+      "视频",
+      "图像",
+      "可灵"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://klingai.com/"
+  },
+  {
+    "name": "即梦 AI",
+    "url": "https://jimeng.jianying.com/",
+    "category": "视频与数字人",
+    "description": "支持中文提示的视频、绘画与智能画布工具。",
+    "task": "中文生图、视频素材、局部编辑",
+    "mode": "网页 / App",
+    "tags": [
+      "中文",
+      "视频",
+      "图像"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://jimeng.jianying.com/"
+  },
+  {
+    "name": "HeyGen",
+    "url": "https://www.heygen.com/",
+    "category": "视频与数字人",
+    "description": "以 AI 数字人与视频表达为核心的制作平台。",
+    "task": "讲解视频、数字人口播",
+    "mode": "网页",
+    "tags": [
+      "数字人",
+      "口播",
+      "视频"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.heygen.com/"
+  },
+  {
+    "name": "Synthesia",
+    "url": "https://www.synthesia.io/",
+    "category": "视频与数字人",
+    "description": "面向企业的视频与数字人制作工具。",
+    "task": "培训视频、课程讲解、企业沟通",
+    "mode": "网页",
+    "tags": [
+      "数字人",
+      "培训",
+      "视频"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.synthesia.io/"
+  },
+  {
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io/",
+    "category": "音频与音乐",
+    "description": "提供语音生成、配音与语音智能体的 AI 平台。",
+    "task": "旁白、配音、语音交互原型",
+    "mode": "网页 / API",
+    "tags": [
+      "语音",
+      "配音",
+      "音频"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://elevenlabs.io/"
+  },
+  {
+    "name": "Suno",
+    "url": "https://suno.com/",
+    "category": "音频与音乐",
+    "description": "通过提示创作歌曲与音乐的 AI 平台。",
+    "task": "探索歌曲风格、制作音乐草稿",
+    "mode": "网页 / App",
+    "tags": [
+      "音乐",
+      "歌曲",
+      "创作"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://suno.com/"
+  },
+  {
+    "name": "Udio",
+    "url": "https://www.udio.com/",
+    "category": "音频与音乐",
+    "description": "用于生成和探索音乐的 AI 工具。",
+    "task": "音乐创作与曲风实验",
+    "mode": "网页",
+    "tags": [
+      "音乐",
+      "歌曲",
+      "创作"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.udio.com/"
+  },
+  {
+    "name": "Descript",
+    "url": "https://www.descript.com/",
+    "category": "音频与音乐",
+    "description": "以文本编辑方式处理视频与音频的 AI 工具。",
+    "task": "编辑访谈、播客和口播内容",
+    "mode": "桌面 / 网页",
+    "tags": [
+      "音频",
+      "视频",
+      "剪辑"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.descript.com/"
+  },
+  {
+    "name": "Notion AI",
+    "url": "https://www.notion.com/product/ai",
+    "category": "办公与写作",
+    "description": "在 Notion 工作空间中处理知识、文档与任务的 AI。",
+    "task": "检索工作知识、整理笔记、起草文档",
+    "mode": "网页 / 桌面",
+    "tags": [
+      "知识库",
+      "文档",
+      "办公"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.notion.com/product/ai"
+  },
+  {
+    "name": "Gamma",
+    "url": "https://gamma.app/",
+    "category": "办公与写作",
+    "description": "把想法转成演示文稿、文档与网页的 AI 创作工具。",
+    "task": "提案、汇报、结构化演示草稿",
+    "mode": "网页",
+    "tags": [
+      "PPT",
+      "演示",
+      "文档"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://gamma.app/"
+  },
+  {
+    "name": "Grammarly",
+    "url": "https://www.grammarly.com/",
+    "category": "办公与写作",
+    "description": "提供语法检查、段落改写与语气建议的写作工具。",
+    "task": "英文邮件、文章与表达润色",
+    "mode": "网页 / 扩展 / 桌面",
+    "tags": [
+      "英文",
+      "写作",
+      "润色"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.grammarly.com/"
+  },
+  {
+    "name": "DeepL",
+    "url": "https://www.deepl.com/",
+    "category": "办公与写作",
+    "description": "提供文本、文件和语音翻译等功能的 AI 平台。",
+    "task": "跨语言阅读、文件与内容翻译",
+    "mode": "网页 / 桌面 / API",
+    "tags": [
+      "翻译",
+      "语言",
+      "文档"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.deepl.com/"
+  },
+  {
+    "name": "WPS AI",
+    "url": "https://ai.wps.cn/",
+    "category": "办公与写作",
+    "description": "融入 WPS 的文档写作、PPT 与表格 AI 工具。",
+    "task": "办公文档、汇报演示、材料问答",
+    "mode": "办公软件 / 网页",
+    "tags": [
+      "中文",
+      "PPT",
+      "表格"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://ai.wps.cn/"
+  },
+  {
+    "name": "Microsoft 365 Copilot",
+    "url": "https://www.microsoft.com/en-us/microsoft-365-copilot",
+    "category": "办公与写作",
+    "description": "结合 Microsoft 365 工作内容与应用的办公 AI。",
+    "task": "在办公套件内起草、分析与检索",
+    "mode": "办公套件 / 网页",
+    "tags": [
+      "Office",
+      "办公",
+      "企业"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365-copilot"
+  },
+  {
+    "name": "Google Workspace AI",
+    "url": "https://workspace.google.com/solutions/ai/",
+    "category": "办公与写作",
+    "description": "融入 Gmail、Docs、Sheets 和 Meet 等应用的 AI。",
+    "task": "在 Google 办公流程内写作与整理",
+    "mode": "办公套件 / 网页",
+    "tags": [
+      "Google",
+      "办公",
+      "企业"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://workspace.google.com/solutions/ai/"
+  },
+  {
+    "name": "千问办公",
+    "url": "https://qwenwork.cn/docs/product-introduction",
+    "category": "办公与写作",
+    "description": "阿里的 AI 办公平台，提供文档、数据与演示等任务入口。",
+    "task": "文档处理、分析表格、制作汇报",
+    "mode": "网页 / 桌面 / 钉钉",
+    "tags": [
+      "中文",
+      "办公",
+      "钉钉"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://qwenwork.cn/docs/product-introduction"
+  },
+  {
+    "name": "Otter",
+    "url": "https://otter.ai/",
+    "category": "会议与记录",
+    "description": "面向会议的转录、笔记与内容检索工具。",
+    "task": "把对话转成可检索的会议记录",
+    "mode": "网页 / App",
+    "tags": [
+      "转录",
+      "会议",
+      "笔记"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://otter.ai/"
+  },
+  {
+    "name": "Fireflies",
+    "url": "https://fireflies.ai/",
+    "category": "会议与记录",
+    "description": "提供会议转录、摘要、搜索与行动项整理。",
+    "task": "团队会议记录、后续事项梳理",
+    "mode": "网页 / App / 扩展",
+    "tags": [
+      "会议",
+      "转录",
+      "摘要"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://fireflies.ai/"
+  },
+  {
+    "name": "Zapier AI",
+    "url": "https://zapier.com/ai",
+    "category": "智能体与自动化",
+    "description": "把 AI 与业务应用连接成自动化流程的平台。",
+    "task": "自动传递资料、处理重复工作",
+    "mode": "网页",
+    "tags": [
+      "自动化",
+      "集成",
+      "工作流"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://zapier.com/ai"
+  },
+  {
+    "name": "Make",
+    "url": "https://www.make.com/",
+    "category": "智能体与自动化",
+    "description": "可视化构建自动化和 AI 智能体的平台。",
+    "task": "连接多个应用、编排业务步骤",
+    "mode": "网页",
+    "tags": [
+      "自动化",
+      "可视化",
+      "工作流"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.make.com/"
+  },
+  {
+    "name": "n8n",
+    "url": "https://n8n.io/",
+    "category": "智能体与自动化",
+    "description": "支持可视化与代码扩展的 AI 工作流平台。",
+    "task": "连接 API、构建可检查的自动化",
+    "mode": "云端 / 自部署",
+    "tags": [
+      "自动化",
+      "API",
+      "自部署"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://n8n.io/"
+  },
+  {
+    "name": "Dify",
+    "url": "https://dify.ai/",
+    "category": "智能体与自动化",
+    "description": "用于 AI 工作流、知识检索与应用编排的平台。",
+    "task": "知识库问答、AI 应用原型",
+    "mode": "云端 / 自部署",
+    "tags": [
+      "智能体",
+      "RAG",
+      "工作流"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://dify.ai/"
+  },
+  {
+    "name": "扣子 Coze（国内）",
+    "url": "https://www.coze.cn/",
+    "category": "智能体与自动化",
+    "description": "提供 AI 办公与内容任务入口的扣子平台。",
+    "task": "中文办公、内容任务与智能体探索",
+    "mode": "网页",
+    "tags": [
+      "中文",
+      "办公",
+      "智能体"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.coze.cn/"
+  },
+  {
+    "name": "Coze（国际）",
+    "url": "https://www.coze.com/",
+    "category": "智能体与自动化",
+    "description": "国际版 AI 智能体与办公平台入口，功能与国内版可能不同。",
+    "task": "探索 AI 办公及智能体工作流程",
+    "mode": "网页",
+    "tags": [
+      "智能体",
+      "办公",
+      "国际版"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.coze.com/"
+  },
+  {
+    "name": "Flowise",
+    "url": "https://flowiseai.com/",
+    "category": "智能体与自动化",
+    "description": "可视化构建 AI 智能体与知识检索流程的平台。",
+    "task": "聊天助手、RAG 和多步骤任务",
+    "mode": "云端 / 自部署",
+    "tags": [
+      "智能体",
+      "RAG",
+      "自部署"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://flowiseai.com/"
+  },
+  {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/",
+    "category": "开发平台与本地模型",
+    "description": "聚合模型、数据集和应用演示的 AI 社区平台。",
+    "task": "发现模型、查看演示、学习开源生态",
+    "mode": "网页 / 开发平台",
+    "tags": [
+      "模型",
+      "数据集",
+      "开源"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://huggingface.co/"
+  },
+  {
+    "name": "Ollama",
+    "url": "https://ollama.com/",
+    "category": "开发平台与本地模型",
+    "description": "用于运行开放模型与构建模型工作流程的工具。",
+    "task": "本地模型实验、开发模型应用",
+    "mode": "本地 / 云端",
+    "tags": [
+      "本地模型",
+      "开发",
+      "模型"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://ollama.com/"
+  },
+  {
+    "name": "LM Studio",
+    "url": "https://lmstudio.ai/",
+    "category": "开发平台与本地模型",
+    "description": "面向本地模型与桌面 AI 工作的工具。",
+    "task": "下载模型、尝试本地助手",
+    "mode": "桌面",
+    "tags": [
+      "本地模型",
+      "桌面",
+      "模型"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://lmstudio.ai/"
+  },
+  {
+    "name": "fal",
+    "url": "https://fal.ai/",
+    "category": "开发平台与本地模型",
+    "description": "面向开发者的图像、视频和音频模型推理平台。",
+    "task": "通过 API 接入生成式媒体模型",
+    "mode": "API / 网页",
+    "tags": [
+      "API",
+      "图像",
+      "视频"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://fal.ai/"
+  },
+  {
+    "name": "Replicate",
+    "url": "https://replicate.com/",
+    "category": "开发平台与本地模型",
+    "description": "通过 API 运行、微调与部署模型的平台。",
+    "task": "为应用接入图像、语音等模型",
+    "mode": "API / 网页",
+    "tags": [
+      "API",
+      "模型",
+      "开发"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://replicate.com/"
+  },
+  {
+    "name": "Black Forest Labs / FLUX",
+    "url": "https://www.blackforestlabs.ai/",
+    "category": "开发平台与本地模型",
+    "description": "FLUX 模型的官方实验室与模型使用入口。",
+    "task": "了解生成模型、探索 API 与开放权重",
+    "mode": "API / 模型 / 网页",
+    "tags": [
+      "FLUX",
+      "生成模型",
+      "开发"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.blackforestlabs.ai/"
+  },
+  {
+    "name": "MiniMax",
+    "url": "https://www.minimax.io/",
+    "category": "开发平台与本地模型",
+    "description": "提供智能体与多模态模型的 AI 平台。",
+    "task": "探索编程、创作与模型接入",
+    "mode": "网页 / API",
+    "tags": [
+      "智能体",
+      "多模态",
+      "API"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.minimax.io/"
+  },
+  {
+    "name": "You.com",
+    "url": "https://you.com/",
+    "category": "开发平台与本地模型",
+    "description": "面向 AI 智能体的搜索、网页提取与研究 API 平台。",
+    "task": "为 AI 应用接入网页搜索与研究",
+    "mode": "API / 网页",
+    "tags": [
+      "搜索",
+      "API",
+      "研究"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://you.com/"
+  },
+  {
+    "name": "火山方舟",
+    "url": "https://www.volcengine.com/product/ark",
+    "category": "开发平台与本地模型",
+    "description": "火山引擎的大模型开发服务入口。",
+    "task": "探索模型调用与 AI 应用接入",
+    "mode": "开发平台 / API",
+    "tags": [
+      "中文",
+      "API",
+      "大模型"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-10",
+    "sourceUrl": "https://www.volcengine.com/product/ark"
   }
 ]
