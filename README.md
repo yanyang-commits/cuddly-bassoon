@@ -32,7 +32,7 @@ npm run dev
 - `dist/`：生成结果，不提交到 Git。
 
 ## 修改内容
-复制 posts.json 中的一条记录；slug 使用唯一的小写英文和连字符；date 使用 YYYY-MM-DD；paragraphs 填正文段落。构建器会转义正文中的 HTML，不支持 Markdown 或任意 HTML。当前两篇文章是示例，发布前替换为原创内容，并移除 build.mjs 模板中的示例提示。修改 tools.json 可增减工具卡片。
+复制 posts.json 中的一条记录；slug 使用唯一的小写英文和连字符；date 使用 YYYY-MM-DD；paragraphs 填正文段落。构建器会转义正文中的 HTML，不支持 Markdown 或任意 HTML。当前已有三篇正式编辑的原创方法文章。修改 tools.json 可增减工具卡片。
 
 ## 提交到目标空仓库
 本包没有 Git 元数据。解压后进入项目根目录执行：
@@ -49,11 +49,11 @@ git push -u origin main
 
 ## GitHub Pages
 在仓库 Settings → Pages → Build and deployment，将 Source 设为 GitHub Actions，再触发工作流。仓库可见性和账户方案须支持 Pages；如果界面没有该选项，先检查权限与可用性。
-预期地址是 https://yanyang-commits.github.io/cuddly-bassoon/ ，这只是配置目标，本包并未上线。
+预期地址是 https://yanyang-commits.github.io/cuddly-bassoon/ ，站点已上线；main 分支更新会自动构建并发布。
 换域名时同时修改 config.url（域名，不带子路径）和 config.basePath（独立域名设为空字符串），再重建；域名 DNS 与 Pages 自定义域名也需单独配置。不默认添加 CNAME，onestel.com 尚未确认归属。
 
 ## 当前功能与边界
-首页、文章列表、两篇详情、工具导航、关于页和 404。列表筛选在浏览器完成。无在线 AI、订阅提交、实时新闻和后台编辑。部署工作流已提供，但尚未在目标仓库执行。预览服务器不能充当生产 API 服务。
+首页、文章列表、三篇详情、工具导航、关于页和 404。列表筛选在浏览器完成。无在线 AI、订阅提交、实时新闻和后台编辑。部署工作流已在目标仓库通过。预览服务器不能充当生产 API 服务。
 
 ## 官方参考
 - https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
