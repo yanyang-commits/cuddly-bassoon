@@ -1,6 +1,6 @@
 {
-  "name": "onestel-mvp",
-  "version": "0.1.0",
+  "name": "onestel",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -9,6 +9,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "check": "node scripts/check.mjs",
-    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "release-check": "node scripts/release-check.mjs"
   }
 }

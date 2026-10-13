@@ -13,7 +13,9 @@
     ],
     "featured": true,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://chatgpt.com/"
+    "sourceUrl": "https://chatgpt.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Claude",
@@ -29,7 +31,9 @@
     ],
     "featured": true,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://claude.ai/"
+    "sourceUrl": "https://claude.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Gemini",
@@ -45,7 +49,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://gemini.google/about/"
+    "sourceUrl": "https://gemini.google/about/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "DeepSeek",
@@ -61,7 +67,9 @@
     ],
     "featured": true,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.deepseek.com/"
+    "sourceUrl": "https://www.deepseek.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Qwen",
@@ -77,7 +85,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://qwen.ai/"
+    "sourceUrl": "https://qwen.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "千问",
@@ -93,7 +103,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.qianwen.com/"
+    "sourceUrl": "https://www.qianwen.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Kimi",
@@ -109,7 +121,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.kimi.com/"
+    "sourceUrl": "https://www.kimi.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "豆包",
@@ -125,7 +139,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.doubao.com/chat/"
+    "sourceUrl": "https://www.doubao.com/chat/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "腾讯元宝",
@@ -141,7 +157,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://yuanbao.tencent.com/"
+    "sourceUrl": "https://yuanbao.tencent.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "智谱清言",
@@ -157,7 +175,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://chatglm.cn/"
+    "sourceUrl": "https://chatglm.cn/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "文心助手",
@@ -173,7 +193,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://yiyan.baidu.com/"
+    "sourceUrl": "https://yiyan.baidu.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "讯飞星火",
@@ -189,7 +211,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://xinghuo.xfyun.cn/"
+    "sourceUrl": "https://xinghuo.xfyun.cn/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Grok",
@@ -205,7 +229,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://grok.com/"
+    "sourceUrl": "https://grok.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Microsoft Copilot",
@@ -221,7 +247,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://copilot.microsoft.com/"
+    "sourceUrl": "https://copilot.microsoft.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Perplexity",
@@ -237,11 +265,13 @@
     ],
     "featured": true,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.perplexity.ai/"
+    "sourceUrl": "https://www.perplexity.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
-    "name": "NotebookLM",
-    "url": "https://notebooklm.google/",
+    "name": "Gemini Notebook（原 NotebookLM）",
+    "url": "https://notebook.google/",
     "category": "搜索与研究",
     "description": "Google 的资料研究工具，围绕用户提供的来源工作。",
     "task": "阅读资料、汇总笔记、提出材料问题",
@@ -252,8 +282,10 @@
       "学习"
     ],
     "featured": false,
-    "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://notebooklm.google/"
+    "verifiedAt": "2026-10-13",
+    "sourceUrl": "https://notebook.google/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Elicit",
@@ -269,7 +301,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://elicit.com/"
+    "sourceUrl": "https://elicit.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Consensus",
@@ -285,7 +319,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://consensus.app/"
+    "sourceUrl": "https://consensus.app/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Scite",
@@ -301,7 +337,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://scite.ai/"
+    "sourceUrl": "https://scite.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Cursor",
@@ -317,7 +355,9 @@
     ],
     "featured": true,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://cursor.com/"
+    "sourceUrl": "https://cursor.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "GitHub Copilot",
@@ -333,11 +373,13 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://github.com/features/copilot"
+    "sourceUrl": "https://github.com/features/copilot",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Devin Desktop（原 Windsurf 入口）",
-    "url": "https://windsurf.com/",
+    "url": "https://devin.ai/desktop",
     "category": "编程与建站",
     "description": "当前 Windsurf 官网显示的编程智能体工作台。",
     "task": "管理编程任务、检查代码变更",
@@ -348,8 +390,10 @@
       "Windsurf"
     ],
     "featured": false,
-    "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://windsurf.com/"
+    "verifiedAt": "2026-10-13",
+    "sourceUrl": "https://windsurf.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Claude Code",
@@ -365,7 +409,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.anthropic.com/claude-code"
+    "sourceUrl": "https://www.anthropic.com/claude-code",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "OpenAI Codex",
@@ -381,7 +427,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://openai.com/codex/"
+    "sourceUrl": "https://openai.com/codex/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "TRAE",
@@ -397,7 +445,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.trae.ai/"
+    "sourceUrl": "https://www.trae.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Replit",
@@ -413,7 +463,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://replit.com/"
+    "sourceUrl": "https://replit.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "v0",
@@ -429,7 +481,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://v0.app/"
+    "sourceUrl": "https://v0.app/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Bolt",
@@ -445,7 +499,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://bolt.new/"
+    "sourceUrl": "https://bolt.new/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Lovable",
@@ -461,7 +517,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://lovable.dev/"
+    "sourceUrl": "https://lovable.dev/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Midjourney",
@@ -477,7 +535,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.midjourney.com/"
+    "sourceUrl": "https://www.midjourney.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Adobe Firefly",
@@ -493,7 +553,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.adobe.com/products/firefly.html"
+    "sourceUrl": "https://www.adobe.com/products/firefly.html",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Ideogram",
@@ -509,7 +571,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://ideogram.ai/"
+    "sourceUrl": "https://ideogram.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Leonardo.Ai",
@@ -525,7 +589,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://leonardo.ai/"
+    "sourceUrl": "https://leonardo.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Recraft",
@@ -541,7 +607,9 @@
     ],
     "featured": true,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.recraft.ai/"
+    "sourceUrl": "https://www.recraft.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Canva AI",
@@ -557,7 +625,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.canva.com/ai/"
+    "sourceUrl": "https://www.canva.com/ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Figma AI",
@@ -573,7 +643,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.figma.com/ai/"
+    "sourceUrl": "https://www.figma.com/ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Runway",
@@ -589,7 +661,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://runwayml.com/"
+    "sourceUrl": "https://runwayml.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Pika",
@@ -605,7 +679,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://pika.art/"
+    "sourceUrl": "https://pika.art/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Luma",
@@ -621,7 +697,8 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://lumalabs.ai/"
+    "sourceUrl": "https://lumalabs.ai/",
+    "linkStatus": "待复核"
   },
   {
     "name": "可灵 Kling AI",
@@ -637,7 +714,8 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://klingai.com/"
+    "sourceUrl": "https://klingai.com/",
+    "linkStatus": "待复核"
   },
   {
     "name": "即梦 AI",
@@ -653,7 +731,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://jimeng.jianying.com/"
+    "sourceUrl": "https://jimeng.jianying.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "HeyGen",
@@ -669,7 +749,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.heygen.com/"
+    "sourceUrl": "https://www.heygen.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Synthesia",
@@ -685,7 +767,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.synthesia.io/"
+    "sourceUrl": "https://www.synthesia.io/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "ElevenLabs",
@@ -701,7 +785,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://elevenlabs.io/"
+    "sourceUrl": "https://elevenlabs.io/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Suno",
@@ -717,7 +803,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://suno.com/"
+    "sourceUrl": "https://suno.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Udio",
@@ -733,7 +821,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.udio.com/"
+    "sourceUrl": "https://www.udio.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Descript",
@@ -749,7 +839,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.descript.com/"
+    "sourceUrl": "https://www.descript.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Notion AI",
@@ -765,7 +857,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.notion.com/product/ai"
+    "sourceUrl": "https://www.notion.com/product/ai",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Gamma",
@@ -781,7 +875,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://gamma.app/"
+    "sourceUrl": "https://gamma.app/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Grammarly",
@@ -797,7 +893,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.grammarly.com/"
+    "sourceUrl": "https://www.grammarly.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "DeepL",
@@ -813,7 +911,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.deepl.com/"
+    "sourceUrl": "https://www.deepl.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "WPS AI",
@@ -829,7 +929,8 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://ai.wps.cn/"
+    "sourceUrl": "https://ai.wps.cn/",
+    "linkStatus": "待复核"
   },
   {
     "name": "Microsoft 365 Copilot",
@@ -845,7 +946,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365-copilot"
+    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365-copilot",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Google Workspace AI",
@@ -861,7 +964,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://workspace.google.com/solutions/ai/"
+    "sourceUrl": "https://workspace.google.com/solutions/ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "千问办公",
@@ -877,7 +982,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://qwenwork.cn/docs/product-introduction"
+    "sourceUrl": "https://qwenwork.cn/docs/product-introduction",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Otter",
@@ -893,7 +1000,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://otter.ai/"
+    "sourceUrl": "https://otter.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Fireflies",
@@ -909,7 +1018,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://fireflies.ai/"
+    "sourceUrl": "https://fireflies.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Zapier AI",
@@ -925,7 +1036,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://zapier.com/ai"
+    "sourceUrl": "https://zapier.com/ai",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Make",
@@ -941,7 +1054,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.make.com/"
+    "sourceUrl": "https://www.make.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "n8n",
@@ -957,7 +1072,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://n8n.io/"
+    "sourceUrl": "https://n8n.io/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Dify",
@@ -973,7 +1090,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://dify.ai/"
+    "sourceUrl": "https://dify.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "扣子 Coze（国内）",
@@ -989,7 +1108,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.coze.cn/"
+    "sourceUrl": "https://www.coze.cn/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Coze（国际）",
@@ -1005,7 +1126,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.coze.com/"
+    "sourceUrl": "https://www.coze.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Flowise",
@@ -1021,7 +1144,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://flowiseai.com/"
+    "sourceUrl": "https://flowiseai.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Hugging Face",
@@ -1037,7 +1162,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://huggingface.co/"
+    "sourceUrl": "https://huggingface.co/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Ollama",
@@ -1053,7 +1180,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://ollama.com/"
+    "sourceUrl": "https://ollama.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "LM Studio",
@@ -1069,7 +1198,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://lmstudio.ai/"
+    "sourceUrl": "https://lmstudio.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "fal",
@@ -1085,7 +1216,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://fal.ai/"
+    "sourceUrl": "https://fal.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Replicate",
@@ -1101,11 +1234,13 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://replicate.com/"
+    "sourceUrl": "https://replicate.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "Black Forest Labs / FLUX",
-    "url": "https://www.blackforestlabs.ai/",
+    "url": "https://bfl.ai/",
     "category": "开发平台与本地模型",
     "description": "FLUX 模型的官方实验室与模型使用入口。",
     "task": "了解生成模型、探索 API 与开放权重",
@@ -1116,8 +1251,10 @@
       "开发"
     ],
     "featured": false,
-    "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.blackforestlabs.ai/"
+    "verifiedAt": "2026-10-13",
+    "sourceUrl": "https://bfl.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "MiniMax",
@@ -1133,7 +1270,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.minimax.io/"
+    "sourceUrl": "https://www.minimax.io/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "You.com",
@@ -1149,7 +1288,9 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://you.com/"
+    "sourceUrl": "https://you.com/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   },
   {
     "name": "火山方舟",
@@ -1165,6 +1306,80 @@
     ],
     "featured": false,
     "verifiedAt": "2026-10-10",
-    "sourceUrl": "https://www.volcengine.com/product/ark"
+    "sourceUrl": "https://www.volcengine.com/product/ark",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
+  },
+  {
+    "name": "Google Stitch",
+    "url": "https://stitch.withgoogle.com/",
+    "category": "图像与设计",
+    "description": "根据文字和参考图探索界面设计。",
+    "task": "制作页面草稿、比较 UI 方向",
+    "mode": "网页",
+    "tags": [
+      "UI",
+      "原型",
+      "Google"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-13",
+    "sourceUrl": "https://developers.googleblog.com/en/stitch-a-new-way-to-design-uis/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
+  },
+  {
+    "name": "Jules",
+    "url": "https://jules.google/",
+    "category": "编程与建站",
+    "description": "Google 的异步编程智能体，可围绕代码仓库处理任务。",
+    "task": "拆分代码任务、修复问题、审阅变更",
+    "mode": "网页 / API",
+    "tags": [
+      "编程",
+      "代码仓库",
+      "智能体"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-13",
+    "sourceUrl": "https://jules.google/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
+  },
+  {
+    "name": "Napkin AI",
+    "url": "https://www.napkin.ai/",
+    "category": "图像与设计",
+    "description": "把文字整理为可编辑的图解和流程图。",
+    "task": "为文章、方案和报告制作结构图",
+    "mode": "网页 / API",
+    "tags": [
+      "图解",
+      "流程图",
+      "汇报"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-13",
+    "sourceUrl": "https://www.napkin.ai/",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
+  },
+  {
+    "name": "Google AI Studio",
+    "url": "https://aistudio.google.com/",
+    "category": "开发平台与本地模型",
+    "description": "Google AI 的在线实验入口。",
+    "task": "试验提示词、探索模型应用",
+    "mode": "网页",
+    "tags": [
+      "开发",
+      "原型",
+      "Google"
+    ],
+    "featured": false,
+    "verifiedAt": "2026-10-13",
+    "sourceUrl": "https://aistudio.google.com/welcome",
+    "linkStatus": "官方入口已核对",
+    "linkCheckedAt": "2026-10-13"
   }
 ]
