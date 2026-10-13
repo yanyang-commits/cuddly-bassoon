@@ -1,12 +1,15 @@
 # ONESTEL · 高质量提问与项目行动
 
+> **最新网页入口（2026-10-13）：** [访问 ONESTEL](https://onestel.leoyang6667.chatgpt.site)，仅站点所有者可访问。仓库已更名为 `yanyang-commits/onestel`。最新私密版本包含新 logo、77 个工具、收藏、使用指南与隐私页面；以下技术文档主要描述本仓库保留的原公开版本。GitHub Pages 路径已按更名修正为 `/onestel/`，未将私密版本代码发布到公开仓库。
+
+
 **把模糊想法变成可执行任务。** ONESTEL 以高质量提问为主要功能，帮助用户生成可交给 AI 的任务指令，再通过工具导航与实践笔记推进项目。
 
-[高质量提问](https://yanyang-commits.github.io/cuddly-bassoon/prompt/) · [访问网站](https://yanyang-commits.github.io/cuddly-bassoon/) · [AI 工具导航](https://yanyang-commits.github.io/cuddly-bassoon/tools/) · [阅读文章](https://yanyang-commits.github.io/cuddly-bassoon/articles/) · [构建与部署记录](https://github.com/yanyang-commits/cuddly-bassoon/actions)
+[高质量提问](https://onestel.leoyang6667.chatgpt.site/prompt/) · [访问网站](https://onestel.leoyang6667.chatgpt.site/) · [AI 工具导航](https://onestel.leoyang6667.chatgpt.site/tools/) · [阅读文章](https://onestel.leoyang6667.chatgpt.site/articles/) · [构建与部署记录](https://github.com/yanyang-commits/onestel/actions)
 
 ## 项目概览
 
-ONESTEL 面向有想法、却难以把任务说清楚的人。核心路径是：描述模糊问题 → 整理高质量指令 → 交给合适的 AI → 核验输出并推进项目。实践笔记与工具导航为这条路径提供支持。当前已部署到 GitHub Pages；ONESTEL 为项目品牌，尚未确认 `onestel.com` 的归属或配置。
+ONESTEL 面向有想法、却难以把任务说清楚的人。核心路径是：描述模糊问题 → 整理高质量指令 → 交给合适的 AI → 核验输出并推进项目。实践笔记与工具导航为这条路径提供支持。当前最新版本部署于仅所有者可访问的 Sites；本 GitHub 仓库保留原有公开静态版本，ONESTEL 为项目品牌，尚未确认 `onestel.com` 的归属或配置。
 
 - **高质量提问工作台**：6 类任务方向，目标、背景与约束补充，缺口提示，可编辑指令、复制、TXT 下载及示例。
 - **内容站**：首页、文章列表、3 篇原创方法文章、关于页及 404 页面。
@@ -77,12 +80,12 @@ ONESTEL 面向有想法、却难以把任务说清楚的人。核心路径是：
 先安装 **Node.js 24 或以上版本**，再执行：
 
 ```bash
-git clone https://github.com/yanyang-commits/cuddly-bassoon.git
-cd cuddly-bassoon
+git clone https://github.com/yanyang-commits/onestel.git
+cd onestel
 npm run dev
 ```
 
-打开 [本地预览](http://localhost:4321/cuddly-bassoon/)。预览服务只监听本机 `127.0.0.1:4321`，不用于生产服务。当前没有热更新；修改文件后按 `Ctrl+C` 停止服务，再运行 `npm run dev`。
+打开 [本地预览](http://localhost:4321/onestel/)。预览服务只监听本机 `127.0.0.1:4321`，不用于生产服务。当前没有热更新；修改文件后按 `Ctrl+C` 停止服务，再运行 `npm run dev`。
 
 | 命令 | 用途 |
 | --- | --- |
@@ -92,7 +95,7 @@ npm run dev
 
 ## 页面与信息架构
 
-首页优先展示高质量提问入口、任务推进流程、实践笔记与工具导航。主要路径如下；在线地址统一前置 `/cuddly-bassoon`。
+首页优先展示高质量提问入口、任务推进流程、实践笔记与工具导航。主要路径如下；在线地址统一前置 `/onestel`。
 
 | 路径 | 页面内容 |
 | --- | --- |
@@ -231,7 +234,7 @@ git push origin main
   "name": "ONESTEL",
   "description": "把模糊想法变成可执行的 AI 任务指令，帮助人们更好地完成项目。",
   "url": "https://yanyang-commits.github.io",
-  "basePath": "/cuddly-bassoon"
+  "basePath": "/onestel"
 }
 ```
 
@@ -267,7 +270,7 @@ GitHub Pages 只托管静态文件，模型调用需要独立服务端。[AI 接
 
 **为什么运行 check 报文件不存在？** 先执行 `npm run build`，检查脚本读取的是 `dist/`。
 
-**为什么首页或样式出现 404？** 核对 `url`、`basePath` 与实际部署地址是否一致；仓库 Pages 使用 `/cuddly-bassoon/`，不是域名根目录。
+**为什么首页或样式出现 404？** 核对 `url`、`basePath` 与实际部署地址是否一致；仓库 Pages 使用 `/onestel/`，不是域名根目录。
 
 **可以在正文里写 Markdown 或 HTML 吗？** 当前正文只支持纯文字段落。需要图片、代码块或复杂排版时，应先扩展内容结构和构建模板。
 
